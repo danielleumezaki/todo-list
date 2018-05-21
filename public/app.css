@@ -1,0 +1,44 @@
+.container {
+  background-color: #E9FFFF;
+}
+
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+
+h1{
+  text-align: center;
+  font-family: 'Limelight', cursive;
+  padding-top: 10vh;
+}
+
+
+.add {
+  border-radius: 15px;
+  background-color: #4A9594;
+  font-size: 3vh; 
+  padding: 1% 2%;
+  color: white;
+}
+.btn {
+  background-color: #4A9594;
+}
+
+span {
+  margin-left: 1vw;
+}
+
+.clear {
+  float: right;
+}
+
+.clear {
+  border-radius: 15px;
+  background-color: #0EB5B2;
+  font-size: 3vh; 
+  padding: 5% 7%;
+  color: white;
+}
+
+

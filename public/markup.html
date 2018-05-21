@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <meta charset="UTF-8" />
+        <title>Hello World</title>
+        <script src="https://unpkg.com/react@16/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="app.css">
+  </head>
+  
+  <body>
+      
+  </body>
+  
+</html>
+<div id="root"></div>
+    <script type="text/babel">
+
+      ReactDOM.render(
+        <h1>Hello, world!</h1>,
+        document.getElementById('root')
+      );
+
+    </script>
+
+<div class="container">
+    <h1 class="text-center">todos</h1>
+
+    <form>
+        <div class="input-group">
+            <span class="input-group-btn">
+                <button class="btn btn-primary" type="submit">Add</button>
+            </span>
+            <input class="form-control" placeholder="add a todo" />
+        </div>
+    </form>
+    
+    <ul class="list-group">
+        <li class="list-group-item">
+            <input type="checkbox" value="on" />
+            <label>learn angular</label>
+        </li>
+        <li class="list-group-item">
+            <input type="checkbox" value="on" />
+            <label>write the content for the next module</label>
+        </li>
+        <li class="list-group-item">
+            <input type="checkbox" value="on" />
+            <label class="done">buy cheese</label>
+        </li>
+        <li class="list-group-item">
+            <input type="checkbox" value="on" />
+            <label class="done">buy milk</label>
+        </li>
+    </ul>
+    
+    <select>
+        <option value="all">all</option>
+        <option value="active">active</option>
+        <option value="complete">complete</option>
+    </select>
+    
+    <button class="pull-right btn btn-default">Clear Complete</button>
+</div>
